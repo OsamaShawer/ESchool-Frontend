@@ -1,0 +1,61 @@
+@import "tailwindcss";
+.my-container {
+  width: 70% !important;
+  margin: 0 auto !important;
+}
+@media (max-width: 950px) {
+  .my-box {
+    width: 100%;
+  }
+}
+
+body {
+  height: calc(100vh + 200px);
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dashboard .dashboard-link:not(:first-child) {
+  padding: 10px 10px 4px 10px;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.2s background-color ease;
+}
+
+.dashboard .dashboard-link:not(:first-child):hover {
+  background-color: #003fed;
+}
+
+.dashboard:first-child {
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+}
+
+.dashboard-arrow:hover {
+  transform: rotate(-180deg);
+  cursor: pointer;
+}
+.content {
+  flex: 1;
+}
+
+.cards-holder {
+  padding-bottom: 20px;
+}
+
+
+.cards-holder .card {
+  width: 50%;
+  padding: 20px;
+}
+
+body {
+  background-color: #eeeeee55;
+}
