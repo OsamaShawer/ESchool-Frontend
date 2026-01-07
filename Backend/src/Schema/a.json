@@ -1,0 +1,783 @@
+[
+  {
+    "firstName": "Ahmed",
+    "lastName": "Saleh",
+    "gender": "Male",
+    "dateOfBirth": "1984-03-12",
+    "email": "ahmed.saleh1@example.com",
+    "phone": "0591000001",
+    "address": "Ramallah",
+    "hireDate": "2016-08-15",
+    "subjects": ["Math"],
+    "classesAssigned": [
+      { "className": "5A", "subjects": ["Math"] },
+      { "className": "6A", "subjects": ["Math"] }
+    ],
+    "salary": 2500,
+    "active": 1,
+    "absent": 0,
+    "homeroomTeacher": "5A",
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Lina",
+    "lastName": "Hassan",
+    "gender": "Female",
+    "dateOfBirth": "1990-07-21",
+    "email": "lina.hassan1@example.com",
+    "phone": "0591000002",
+    "address": "Hebron",
+    "hireDate": "2019-02-10",
+    "subjects": ["Science"],
+    "classesAssigned": [
+      { "className": "5B", "subjects": ["Science"] },
+      { "className": "7B", "subjects": ["Science"] },
+      { "className": "8A", "subjects": ["Science"] }
+    ],
+    "salary": 2400,
+    "active": 1,
+    "absent": 1,
+    "homeroomTeacher": "7B",
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Yousef",
+    "lastName": "Barakat",
+    "gender": "Male",
+    "dateOfBirth": "1986-11-05",
+    "email": "yousef.barakat1@example.com",
+    "phone": "0591000003",
+    "address": "Nablus",
+    "hireDate": "2018-01-20",
+    "subjects": ["English"],
+    "classesAssigned": [
+      { "className": "6A", "subjects": ["English"] },
+      { "className": "6B", "subjects": ["English"] },
+      { "className": "7A", "subjects": ["English"] }
+    ],
+    "salary": 2550,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Sara",
+    "lastName": "Jaber",
+    "gender": "Female",
+    "dateOfBirth": "1992-09-14",
+    "email": "sara.jaber1@example.com",
+    "phone": "0591000004",
+    "address": "Bethlehem",
+    "hireDate": "2021-03-11",
+    "subjects": ["Arabic"],
+    "classesAssigned": [
+      { "className": "6B", "subjects": ["Arabic"] },
+      { "className": "7B", "subjects": ["Arabic"] }
+    ],
+    "salary": 2300,
+    "active": 1,
+    "absent": 2,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Omar",
+    "lastName": "Khalil",
+    "gender": "Male",
+    "dateOfBirth": "1988-01-02",
+    "email": "omar.khalil1@example.com",
+    "phone": "0591000005",
+    "address": "Qalqilya",
+    "hireDate": "2017-09-29",
+    "subjects": ["Islamic Studies"],
+    "classesAssigned": [
+      { "className": "5C", "subjects": ["Islamic Studies"] },
+      { "className": "6C", "subjects": ["Islamic Studies"] },
+      { "className": "7C", "subjects": ["Islamic Studies"] }
+    ],
+    "salary": 2400,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Hiba",
+    "lastName": "Nour",
+    "gender": "Female",
+    "dateOfBirth": "1993-06-23",
+    "email": "hiba.nour1@example.com",
+    "phone": "0591000006",
+    "address": "Gaza",
+    "hireDate": "2020-01-17",
+    "subjects": ["Math"],
+    "classesAssigned": [
+      { "className": "7A", "subjects": ["Math"] },
+      { "className": "7B", "subjects": ["Math"] }
+    ],
+    "salary": 2450,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Rami",
+    "lastName": "Shahin",
+    "gender": "Male",
+    "dateOfBirth": "1985-05-30",
+    "email": "rami.shahin1@example.com",
+    "phone": "0591000007",
+    "address": "Jenin",
+    "hireDate": "2016-10-05",
+    "subjects": ["Science"],
+    "classesAssigned": [
+      { "className": "8A", "subjects": ["Science"] },
+      { "className": "8B", "subjects": ["Science"] },
+      { "className": "9A", "subjects": ["Science"] }
+    ],
+    "salary": 2600,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Maya",
+    "lastName": "Arafat",
+    "gender": "Female",
+    "dateOfBirth": "1994-04-11",
+    "email": "maya.arafat1@example.com",
+    "phone": "0591000008",
+    "address": "Tulkarm",
+    "hireDate": "2022-02-13",
+    "subjects": ["English"],
+    "classesAssigned": [
+      { "className": "9B", "subjects": ["English"] },
+      { "className": "10A", "subjects": ["English"] }
+    ],
+    "salary": 2250,
+    "active": 1,
+    "absent": 1,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Nader",
+    "lastName": "Samara",
+    "gender": "Male",
+    "dateOfBirth": "1981-10-07",
+    "email": "nader.samara1@example.com",
+    "phone": "0591000009",
+    "address": "Jericho",
+    "hireDate": "2015-06-01",
+    "subjects": ["Arabic"],
+    "classesAssigned": [
+      { "className": "10B", "subjects": ["Arabic"] },
+      { "className": "11A", "subjects": ["Arabic"] },
+      { "className": "12A", "subjects": ["Arabic"] }
+    ],
+    "salary": 2750,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Dina",
+    "lastName": "Masri",
+    "gender": "Female",
+    "dateOfBirth": "1991-12-19",
+    "email": "dina.masri1@example.com",
+    "phone": "0591000010",
+    "address": "Ramallah",
+    "hireDate": "2019-11-10",
+    "subjects": ["Computer"],
+    "classesAssigned": [
+      { "className": "8B", "subjects": ["Computer"] },
+      { "className": "9A", "subjects": ["Computer"] }
+    ],
+    "salary": 2600,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Fadi",
+    "lastName": "Rashid",
+    "gender": "Male",
+    "dateOfBirth": "1989-08-01",
+    "email": "fadi.rashid1@example.com",
+    "phone": "0591000011",
+    "address": "Hebron",
+    "hireDate": "2018-02-01",
+    "subjects": ["Physics"],
+    "classesAssigned": [
+      { "className": "11B", "subjects": ["Physics"] },
+      { "className": "12B", "subjects": ["Physics"] },
+      { "className": "12C", "subjects": ["Physics"] }
+    ],
+    "salary": 2700,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Jana",
+    "lastName": "Odeh",
+    "gender": "Female",
+    "dateOfBirth": "1995-02-18",
+    "email": "jana.odeh1@example.com",
+    "phone": "0591000012",
+    "address": "Bethlehem",
+    "hireDate": "2021-08-01",
+    "subjects": ["Chemistry"],
+    "classesAssigned": [
+      { "className": "10A", "subjects": ["Chemistry"] },
+      { "className": "11A", "subjects": ["Chemistry"] }
+    ],
+    "salary": 2300,
+    "active": 1,
+    "absent": 1,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Ziad",
+    "lastName": "Siraj",
+    "gender": "Male",
+    "dateOfBirth": "1982-07-03",
+    "email": "ziad.siraj1@example.com",
+    "phone": "0591000013",
+    "address": "Nablus",
+    "hireDate": "2014-10-22",
+    "subjects": ["History"],
+    "classesAssigned": [
+      { "className": "9B", "subjects": ["History"] },
+      { "className": "10B", "subjects": ["History"] },
+      { "className": "11B", "subjects": ["History"] }
+    ],
+    "salary": 2900,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Alaa",
+    "lastName": "Qassem",
+    "gender": "Female",
+    "dateOfBirth": "1996-01-25",
+    "email": "alaa.qassem1@example.com",
+    "phone": "0591000014",
+    "address": "Gaza",
+    "hireDate": "2020-09-05",
+    "subjects": ["Biology"],
+    "classesAssigned": [
+      { "className": "11C", "subjects": ["Biology"] },
+      { "className": "12C", "subjects": ["Biology"] }
+    ],
+    "salary": 2480,
+    "active": 1,
+    "absent": 2,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Mahmoud",
+    "lastName": "Zein",
+    "gender": "Male",
+    "dateOfBirth": "1987-03-30",
+    "email": "mahmoud.zein1@example.com",
+    "phone": "0591000015",
+    "address": "Ramallah",
+    "hireDate": "2012-05-12",
+    "subjects": ["Math"],
+    "classesAssigned": [
+      { "className": "10C", "subjects": ["Math"] },
+      { "className": "11C", "subjects": ["Math"] },
+      { "className": "12A", "subjects": ["Math"] }
+    ],
+    "salary": 3000,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Nour",
+    "lastName": "Fahmi",
+    "gender": "Female",
+    "dateOfBirth": "1992-10-09",
+    "email": "nour.fahmi1@example.com",
+    "phone": "0591000016",
+    "address": "Jenin",
+    "hireDate": "2017-07-01",
+    "subjects": ["English"],
+    "classesAssigned": [
+      { "className": "5A", "subjects": ["English"] },
+      { "className": "5B", "subjects": ["English"] }
+    ],
+    "salary": 2200,
+    "active": 1,
+    "absent": 1,
+    "status": ["part-time"]
+  },
+  {
+    "firstName": "Khaled",
+    "lastName": "Marwan",
+    "gender": "Male",
+    "dateOfBirth": "1980-06-12",
+    "email": "khaled.marwan1@example.com",
+    "phone": "0591000017",
+    "address": "Tulkarm",
+    "hireDate": "2010-09-01",
+    "subjects": ["Geography"],
+    "classesAssigned": [
+      { "className": "8C", "subjects": ["Geography"] },
+      { "className": "9C", "subjects": ["Geography"] },
+      { "className": "10C", "subjects": ["Geography"] }
+    ],
+    "salary": 2800,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Rana",
+    "lastName": "Khatib",
+    "gender": "Female",
+    "dateOfBirth": "1993-11-02",
+    "email": "rana.khatib1@example.com",
+    "phone": "0591000018",
+    "address": "Ramallah",
+    "hireDate": "2019-03-15",
+    "subjects": ["Art"],
+    "classesAssigned": [
+      { "className": "5C", "subjects": ["Art"] },
+      { "className": "6A", "subjects": ["Art"] }
+    ],
+    "salary": 2100,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Samir",
+    "lastName": "Habib",
+    "gender": "Male",
+    "dateOfBirth": "1979-02-20",
+    "email": "samir.habib1@example.com",
+    "phone": "0591000019",
+    "address": "Bethlehem",
+    "hireDate": "2008-01-10",
+    "subjects": ["PE"],
+    "classesAssigned": [
+      { "className": "5A", "subjects": ["PE"] },
+      { "className": "6A", "subjects": ["PE"] },
+      { "className": "7A", "subjects": ["PE"] },
+      { "className": "8A", "subjects": ["PE"] }
+    ],
+    "salary": 2600,
+    "active": 1,
+    "absent": 1,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Nada",
+    "lastName": "Yousef",
+    "gender": "Female",
+    "dateOfBirth": "1997-05-27",
+    "email": "nada.yousef1@example.com",
+    "phone": "0591000020",
+    "address": "Nablus",
+    "hireDate": "2020-10-01",
+    "subjects": ["Computer"],
+    "classesAssigned": [
+      { "className": "9A", "subjects": ["Computer"] },
+      { "className": "9B", "subjects": ["Computer"] }
+    ],
+    "salary": 2400,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Bassam",
+    "lastName": "Amin",
+    "gender": "Male",
+    "dateOfBirth": "1983-09-09",
+    "email": "bassam.amin1@example.com",
+    "phone": "0591000021",
+    "address": "Hebron",
+    "hireDate": "2013-04-20",
+    "subjects": ["Physics"],
+    "classesAssigned": [
+      { "className": "10A", "subjects": ["Physics"] },
+      { "className": "10B", "subjects": ["Physics"] }
+    ],
+    "salary": 2650,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Ruba",
+    "lastName": "Nasser",
+    "gender": "Female",
+    "dateOfBirth": "1990-12-12",
+    "email": "ruba.nasser1@example.com",
+    "phone": "0591000022",
+    "address": "Jenin",
+    "hireDate": "2016-11-11",
+    "subjects": ["Chemistry"],
+    "classesAssigned": [
+      { "className": "11A", "subjects": ["Chemistry"] },
+      { "className": "11B", "subjects": ["Chemistry"] },
+      { "className": "12A", "subjects": ["Chemistry"] }
+    ],
+    "salary": 2550,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Imad",
+    "lastName": "Kassis",
+    "gender": "Male",
+    "dateOfBirth": "1986-04-04",
+    "email": "imad.kassis1@example.com",
+    "phone": "0591000023",
+    "address": "Tulkarm",
+    "hireDate": "2011-09-07",
+    "subjects": ["Biology"],
+    "classesAssigned": [
+      { "className": "8A", "subjects": ["Biology"] },
+      { "className": "9C", "subjects": ["Biology"] }
+    ],
+    "salary": 2620,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Mona",
+    "lastName": "Sleiman",
+    "gender": "Female",
+    "dateOfBirth": "1994-08-08",
+    "email": "mona.sleiman1@example.com",
+    "phone": "0591000024",
+    "address": "Ramallah",
+    "hireDate": "2019-06-01",
+    "subjects": ["English"],
+    "classesAssigned": [
+      { "className": "7C", "subjects": ["English"] },
+      { "className": "8C", "subjects": ["English"] },
+      { "className": "9C", "subjects": ["English"] }
+    ],
+    "salary": 2350,
+    "active": 1,
+    "absent": 0,
+    "status": ["part-time"]
+  },
+  {
+    "firstName": "Tariq",
+    "lastName": "Darwish",
+    "gender": "Male",
+    "dateOfBirth": "1978-01-30",
+    "email": "tariq.darwish1@example.com",
+    "phone": "0591000025",
+    "address": "Bethlehem",
+    "hireDate": "2005-02-02",
+    "subjects": ["Civics"],
+    "classesAssigned": [
+      { "className": "10B", "subjects": ["Civics"] },
+      { "className": "11B", "subjects": ["Civics"] }
+    ],
+    "salary": 2850,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Hana",
+    "lastName": "Salim",
+    "gender": "Female",
+    "dateOfBirth": "1998-03-03",
+    "email": "hana.salim1@example.com",
+    "phone": "0591000026",
+    "address": "Nablus",
+    "hireDate": "2021-01-12",
+    "subjects": ["Math"],
+    "classesAssigned": [
+      { "className": "5B", "subjects": ["Math"] },
+      { "className": "6B", "subjects": ["Math"] },
+      { "className": "6C", "subjects": ["Math"] }
+    ],
+    "salary": 2200,
+    "active": 1,
+    "absent": 1,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Feras",
+    "lastName": "Adel",
+    "gender": "Male",
+    "dateOfBirth": "1984-05-05",
+    "email": "feras.adel1@example.com",
+    "phone": "0591000027",
+    "address": "Hebron",
+    "hireDate": "2010-12-12",
+    "subjects": ["Computer"],
+    "classesAssigned": [
+      { "className": "11C", "subjects": ["Computer"] },
+      { "className": "12B", "subjects": ["Computer"] }
+    ],
+    "salary": 2700,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Salma",
+    "lastName": "Zaki",
+    "gender": "Female",
+    "dateOfBirth": "1991-09-19",
+    "email": "salma.zaki1@example.com",
+    "phone": "0591000028",
+    "address": "Ramallah",
+    "hireDate": "2015-03-03",
+    "subjects": ["Arabic"],
+    "classesAssigned": [
+      { "className": "5A", "subjects": ["Arabic"] },
+      { "className": "5C", "subjects": ["Arabic"] }
+    ],
+    "salary": 2150,
+    "active": 1,
+    "absent": 0,
+    "status": ["part-time"]
+  },
+  {
+    "firstName": "Zein",
+    "lastName": "Alami",
+    "gender": "Male",
+    "dateOfBirth": "1982-02-02",
+    "email": "zein.alami1@example.com",
+    "phone": "0591000029",
+    "address": "Jenin",
+    "hireDate": "2009-07-07",
+    "subjects": ["History"],
+    "classesAssigned": [
+      { "className": "12A", "subjects": ["History"] },
+      { "className": "12B", "subjects": ["History"] }
+    ],
+    "salary": 2900,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Rim",
+    "lastName": "Khodr",
+    "gender": "Female",
+    "dateOfBirth": "1995-06-06",
+    "email": "rim.khodr1@example.com",
+    "phone": "0591000030",
+    "address": "Tulkarm",
+    "hireDate": "2020-05-05",
+    "subjects": ["Music"],
+    "classesAssigned": [
+      { "className": "6A", "subjects": ["Music"] },
+      { "className": "6B", "subjects": ["Music"] },
+      { "className": "7A", "subjects": ["Music"] }
+    ],
+    "salary": 2100,
+    "active": 1,
+    "absent": 0,
+    "status": ["part-time"]
+  },
+  {
+    "firstName": "Adel",
+    "lastName": "Naji",
+    "gender": "Male",
+    "dateOfBirth": "1977-07-07",
+    "email": "adel.naji1@example.com",
+    "phone": "0591000031",
+    "address": "Bethlehem",
+    "hireDate": "2006-06-06",
+    "subjects": ["Math"],
+    "classesAssigned": [
+      { "className": "9A", "subjects": ["Math"] },
+      { "className": "9B", "subjects": ["Math"] },
+      { "className": "9C", "subjects": ["Math"] }
+    ],
+    "salary": 2750,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Sawsan",
+    "lastName": "Ibrahim",
+    "gender": "Female",
+    "dateOfBirth": "1989-10-10",
+    "email": "sawsan.ibrahim1@example.com",
+    "phone": "0591000032",
+    "address": "Nablus",
+    "hireDate": "2014-04-04",
+    "subjects": ["English"],
+    "classesAssigned": [
+      { "className": "10C", "subjects": ["English"] },
+      { "className": "11C", "subjects": ["English"] }
+    ],
+    "salary": 2500,
+    "active": 1,
+    "absent": 1,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Yara",
+    "lastName": "Jundi",
+    "gender": "Female",
+    "dateOfBirth": "1996-11-11",
+    "email": "yara.jundi1@example.com",
+    "phone": "0591000033",
+    "address": "Ramallah",
+    "hireDate": "2018-08-08",
+    "subjects": ["Chemistry"],
+    "classesAssigned": [
+      { "className": "8B", "subjects": ["Chemistry"] },
+      { "className": "9B", "subjects": ["Chemistry"] },
+      { "className": "10B", "subjects": ["Chemistry"] }
+    ],
+    "salary": 2400,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Othman",
+    "lastName": "Qudsi",
+    "gender": "Male",
+    "dateOfBirth": "1985-12-12",
+    "email": "othman.qudsi1@example.com",
+    "phone": "0591000034",
+    "address": "Hebron",
+    "hireDate": "2012-02-02",
+    "subjects": ["Computer"],
+    "classesAssigned": [
+      { "className": "5C", "subjects": ["Computer"] },
+      { "className": "6C", "subjects": ["Computer"] }
+    ],
+    "salary": 2600,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Karim",
+    "lastName": "Farah",
+    "gender": "Male",
+    "dateOfBirth": "1991-01-01",
+    "email": "karim.farah1@example.com",
+    "phone": "0591000035",
+    "address": "Jenin",
+    "hireDate": "2017-03-03",
+    "subjects": ["Physics"],
+    "classesAssigned": [
+      { "className": "7B", "subjects": ["Physics"] },
+      { "className": "8B", "subjects": ["Physics"] }
+    ],
+    "salary": 2450,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Lamia",
+    "lastName": "Barqawi",
+    "gender": "Female",
+    "dateOfBirth": "1993-02-02",
+    "email": "lamia.barqawi1@example.com",
+    "phone": "0591000036",
+    "address": "Tulkarm",
+    "hireDate": "2019-09-09",
+    "subjects": ["Arabic"],
+    "classesAssigned": [
+      { "className": "11A", "subjects": ["Arabic"] },
+      { "className": "12A", "subjects": ["Arabic"] },
+      { "className": "12B", "subjects": ["Arabic"] }
+    ],
+    "salary": 2500,
+    "active": 1,
+    "absent": 1,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Walid",
+    "lastName": "Kamal",
+    "gender": "Male",
+    "dateOfBirth": "1988-09-09",
+    "email": "walid.kamal1@example.com",
+    "phone": "0591000037",
+    "address": "Bethlehem",
+    "hireDate": "2013-05-05",
+    "subjects": ["Geography"],
+    "classesAssigned": [
+      { "className": "6A", "subjects": ["Geography"] },
+      { "className": "7A", "subjects": ["Geography"] }
+    ],
+    "salary": 2550,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Nahla",
+    "lastName": "Othman",
+    "gender": "Female",
+    "dateOfBirth": "1997-04-04",
+    "email": "nahla.othman1@example.com",
+    "phone": "0591000038",
+    "address": "Ramallah",
+    "hireDate": "2022-01-01",
+    "subjects": ["Art"],
+    "classesAssigned": [
+      { "className": "10A", "subjects": ["Art"] },
+      { "className": "10B", "subjects": ["Art"] }
+    ],
+    "salary": 2150,
+    "active": 1,
+    "absent": 0,
+    "status": ["part-time"]
+  },
+  {
+    "firstName": "Ghassan",
+    "lastName": "Saad",
+    "gender": "Male",
+    "dateOfBirth": "1981-11-11",
+    "email": "ghassan.saad1@example.com",
+    "phone": "0591000039",
+    "address": "Gaza",
+    "hireDate": "2007-07-07",
+    "subjects": ["Islamic Studies"],
+    "classesAssigned": [
+      { "className": "9C", "subjects": ["Islamic Studies"] },
+      { "className": "10C", "subjects": ["Islamic Studies"] }
+    ],
+    "salary": 2750,
+    "active": 1,
+    "absent": 0,
+    "status": ["full-time"]
+  },
+  {
+    "firstName": "Nadia",
+    "lastName": "Hamdan",
+    "gender": "Female",
+    "dateOfBirth": "1992-06-06",
+    "email": "nadia.hamdan1@example.com",
+    "phone": "0591000040",
+    "address": "Hebron",
+    "hireDate": "2018-10-10",
+    "subjects": ["English"],
+    "classesAssigned": [
+      { "className": "5A", "subjects": ["English"] },
+      { "className": "6A", "subjects": ["English"] },
+      { "className": "7B", "subjects": ["English"] }
+    ],
+    "salary": 2300,
+    "active": 1,
+    "absent": 1,
+    "status": ["full-time"]
+  }
+]

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="equation">
+      <h1>Choose what is the equation ?</h1>
+      <div class="buttons">
+        <button class="quadratic">Quadratic</button>
+        <button class="linear">Linear</button>
+      </div>
+      <div class="linear-equation">
+        <div class="inputs">
+          <input class="first" type="text" />
+          <div>+</div>
+          <input class="second" type="text" />
+        </div>
+        <button class="submit">Submit</button>
+      </div>
+      <div class="linear-sign-function">
+        <div class="left">
+          <div class="sign"></div>
+          <div class="inequality"></div>
+        </div>
+        <div class="zero"></div>
+        <div class="right">
+          <div class="sign"></div>
+          <div class="inequality"></div>
+        </div>
+      </div>
+    </div>
+    <div id="plot"></div>
+    <script src="https://unpkg.com/mathjs@11.11.0/lib/browser/math.js"></script>
+    
+    <script src="https://unpkg.com/function-plot/dist/function-plot.js"></script>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

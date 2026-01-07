@@ -1,0 +1,87 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.equation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* justify-content: center; */
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.buttons button {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.buttons button:first-child {
+  background-color: #ff3f7f;
+}
+.buttons button:first-child:hover {
+  background-color: #ff1563;
+}
+.buttons button:last-child {
+  background-color: #ffd41d;
+}
+.buttons button:last-child:hover {
+  background-color: #e4bb00;
+}
+.linear-sign-function {
+  visibility: hidden;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  width: 250px;
+}
+.linear-equation {
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.linear-equation .inputs {
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+  align-items: center;
+}
+.linear-equation button {
+  background-color: #ff1563;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 20px;
+  width: 100px;
+}
+.linear-equation input {
+  width: 100px;
+  padding: 10px 10px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  border: 1px solid #aaa;
+}
+.right,
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+b {
+  font-size: 20px !important;
+}
+#plot {
+  display: none;
+}
